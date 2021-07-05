@@ -6,9 +6,9 @@
     padding: 0: font-family: 'Uchen', serif;
 }
 
-section {
+.flecibal-container {
     display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 150px;
 
 }
 
@@ -67,4 +67,15 @@ section {
     background-image: url(img/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiens {
+    background-image: url(img/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experiens h1 {
+    font-size: 50px;
+    margin: 20px 0 0 40px;
+    font-weight: 700;
 }
